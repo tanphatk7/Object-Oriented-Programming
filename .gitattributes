@@ -1,0 +1,12 @@
+# Chuẩn hóa line endings cho mọi file text (chống lỗi khác biệt Win/Mac)
+* text=auto
+
+# Khai báo rõ các file mã nguồn C++
+*.cpp text
+*.h text
+*.hpp text
+
+# Các file Solution của Visual Studio
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
