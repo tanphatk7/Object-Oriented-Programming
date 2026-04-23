@@ -6,8 +6,10 @@ This repository contains all the source code for the practical exercises of the 
 
 The repository is divided into folders corresponding to each practice week. Each folder includes Visual Studio Solution files and source code addressing problems related to various OOP concepts:
 
-* `TH02/`: [Brief description of week 2 content, e.g., Classes, Objects, Constructors...]
-* `TH03/`: [Brief description of week 3 content, e.g., Inheritance, Polymorphism...]
+* `MyProject/`: Individual practice exercises. 
+* `TH02/`: Classes, Objects,...
+* `TH03/`: Constructor, Destructor,...
+* `TH05/`: Friend functions, Overload operators, Type conversion,...
 * *(Upcoming weeks will be continuously updated...)*
 
 ## Tools & Development Environment
