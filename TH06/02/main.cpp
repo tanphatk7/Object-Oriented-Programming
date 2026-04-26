@@ -24,7 +24,7 @@ int main() {
     }
     cin.ignore();
 
-    cout << "\n--- NHAP THONG TIN ---\n";
+    cout << "\n---- NHAP THONG TIN ----\n";
     cout << "Ban da chon: ";
     switch (select) {
     case 1: {
