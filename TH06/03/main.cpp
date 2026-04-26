@@ -21,7 +21,7 @@ int main() {
     int select;
     
     for (int i = 0; i < n; i++) {
-        cout << "\nHAY CHON LOAI DOI TUONG THU " << i + 1;
+        cout << "\n- HAY CHON LOAI DOI TUONG THU " << i + 1 << " -";
         cout << "\n1. Sinh vien   2. Hoc sinh   3. Cong nhan   4. Nghe si   5. Ca si\n";
         cout << "Hay lua chon doi tuong (1-5): ";
         cin >> select;
