@@ -18,11 +18,28 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CaSi.cpp" />
+    <ClCompile Include="CongNhan.cpp" />
+    <ClCompile Include="ConNguoi.cpp" />
+    <ClCompile Include="HocSinh.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NgheSi.cpp" />
+    <ClCompile Include="SinhVien.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CaSi.h" />
+    <ClInclude Include="CongNhan.h" />
+    <ClInclude Include="ConNguoi.h" />
+    <ClInclude Include="HocSinh.h" />
+    <ClInclude Include="NgheSi.h" />
+    <ClInclude Include="SinhVien.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4bef70ab-6b17-44d9-818b-43d5d18ae02b}</ProjectGuid>
-    <RootNamespace>My02</RootNamespace>
+    <ProjectGuid>{9d2c30bb-cb81-4fb6-b45e-239fedebe5ed}</ProjectGuid>
+    <RootNamespace>My03</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -126,23 +143,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="CaSi.h" />
-    <ClInclude Include="CongNhan.h" />
-    <ClInclude Include="ConNguoi.h" />
-    <ClInclude Include="HocSinh.h" />
-    <ClInclude Include="NgheSi.h" />
-    <ClInclude Include="SinhVien.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="CaSi.cpp" />
-    <ClCompile Include="CongNhan.cpp" />
-    <ClCompile Include="ConNguoi.cpp" />
-    <ClCompile Include="HocSinh.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="NgheSi.cpp" />
-    <ClCompile Include="SinhVien.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
