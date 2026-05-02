@@ -21,6 +21,10 @@ public:
 	bool operator== (const DaThuc& b);
 	bool operator!= (const DaThuc& b);
 	DaThuc& operator=(const DaThuc& b);
+	DaThuc operator++(int);
+	DaThuc& operator++();
+	DaThuc operator--(int);
+	DaThuc& operator--();
 	friend istream& operator>> (istream& is, DaThuc& a) {
 		cout << "Hay nhap bac cua da thuc: ";
 		is >> a.bac;

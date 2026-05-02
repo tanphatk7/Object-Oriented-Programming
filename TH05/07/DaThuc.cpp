@@ -187,6 +187,26 @@ DaThuc& DaThuc::operator=(const DaThuc& b) {
 	return *this;
 }
 
+DaThuc DaThuc::operator++(int) {
+	DaThuc res(*this);
+	this->heso[0] += 1;
+	return res;
+}
+DaThuc& DaThuc::operator++() {
+	this->heso[0] += 1;
+	return *this;
+}
+
+DaThuc DaThuc::operator--(int) {
+	DaThuc res(*this);
+	this->heso[0] -= 1;
+	return res;
+}
+DaThuc& DaThuc::operator--() {
+	this->heso[0] -= 1;
+	return *this;
+}
+
 void DaThuc::ChuanHoa() {
 	int bac_thuc_te = bac;
 	while (bac_thuc_te > 0 && heso[bac_thuc_te] == (float)0.0) { // Tìm lại bậc của đa thức

@@ -30,6 +30,16 @@ int main() {
 		cout << "\na != b\n";
 	}
 
+	c = a;
+	cout << "\n++a => cout = " << ++c << "\na = " << c;
+	c = a;
+	cout << "\na++ => cout = " << c++ << "\na = " << c << "\n";
+
+	c = a;
+	cout << "\n--a => cout = " << --c << "\na = " << c;
+	c = a;
+	cout << "\na-- => cout = " << c-- << "\na = " << c << "\n";
+
 	system("pause");
 	return 0;
 }
