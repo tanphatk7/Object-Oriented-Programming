@@ -1,4 +1,4 @@
-# Object-Oriented Programming (IT005) Practice
+# Object-Oriented Programming (IT002) Practice
 
 This repository contains all the source code for the practical exercises of the **Object-Oriented Programming** course at the University of Information Technology (UIT). All exercises are written in **C++**.
 
