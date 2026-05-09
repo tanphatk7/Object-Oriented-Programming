@@ -7,5 +7,6 @@
   <Project Path="Inheritance/Inheritance.vcxproj" Id="ef52ae4b-2558-4fe2-8bd6-b19ffb9b9c42" />
   <Project Path="Operator OverLoad/Operator OverLoad.vcxproj" Id="4c20fd6a-e570-44e6-95a5-3fdb2e1d9eb8" />
   <Project Path="Point/Point.vcxproj" Id="8ff07116-1a50-4523-8709-5e0cdeb329ac" />
+  <Project Path="QuanLyNhanVien/QuanLyNhanVien.vcxproj" Id="b4446e00-dc40-4346-b88e-9578c73ace82" />
   <Project Path="ThoiGian/ThoiGian.vcxproj" Id="7b8f28ae-f8df-42b2-a8eb-b65cd5ac0f28" />
 </Solution>
